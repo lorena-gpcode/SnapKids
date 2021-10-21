@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36144B72720CF1500BA3F14 /* SnapKidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36144B62720CF1500BA3F14 /* SnapKidsApp.swift */; };
+		B36144B92720CF1500BA3F14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36144B82720CF1500BA3F14 /* ContentView.swift */; };
+		B36144BB2720CF1A00BA3F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36144BA2720CF1A00BA3F14 /* Assets.xcassets */; };
+		B36144BE2720CF1A00BA3F14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36144BD2720CF1A00BA3F14 /* Preview Assets.xcassets */; };
+		B36144C92720CF1A00BA3F14 /* SnapKidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36144C82720CF1A00BA3F14 /* SnapKidsTests.swift */; };
+		B36144D42720CF1A00BA3F14 /* SnapKidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36144D32720CF1A00BA3F14 /* SnapKidsUITests.swift */; };
+		B36144E92720D3BB00BA3F14 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B36144E62720D3A600BA3F14 /* video1.mp4 */; };
+		B36144EA2720D3BB00BA3F14 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B36144E52720D3A500BA3F14 /* video2.mp4 */; };
+		B36144EB2720D3BB00BA3F14 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B36144E72720D3A600BA3F14 /* video3.mp4 */; };
+		B36144EC2720D3BB00BA3F14 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B36144E82720D3A700BA3F14 /* video4.mp4 */; };
+		B36144ED2720D3BB00BA3F14 /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B36144E42720D3A500BA3F14 /* video5.mp4 */; };
+		B36144EF2720D3E500BA3F14 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36144EE2720D3E500BA3F14 /* Video.swift */; };
+		B36144F22720D5F000BA3F14 /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36144F12720D5F000BA3F14 /* VideoPlayerViewModel.swift */; };
+		B36144F42720D6FD00BA3F14 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36144F32720D6FD00BA3F14 /* VideoPlayerView.swift */; };
+		B36144F82720DD3900BA3F14 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36144F72720DD3900BA3F14 /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B36144C52720CF1A00BA3F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36144AB2720CF1500BA3F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36144B22720CF1500BA3F14;
+			remoteInfo = SnapKids;
+		};
+		B36144D02720CF1A00BA3F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36144AB2720CF1500BA3F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36144B22720CF1500BA3F14;
+			remoteInfo = SnapKids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B36144B32720CF1500BA3F14 /* SnapKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36144B62720CF1500BA3F14 /* SnapKidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKidsApp.swift; sourceTree = "<group>"; };
+		B36144B82720CF1500BA3F14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B36144BA2720CF1A00BA3F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B36144BD2720CF1A00BA3F14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B36144BF2720CF1A00BA3F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36144C42720CF1A00BA3F14 /* SnapKidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36144C82720CF1A00BA3F14 /* SnapKidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKidsTests.swift; sourceTree = "<group>"; };
+		B36144CA2720CF1A00BA3F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36144CF2720CF1A00BA3F14 /* SnapKidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapKidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36144D32720CF1A00BA3F14 /* SnapKidsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKidsUITests.swift; sourceTree = "<group>"; };
+		B36144D52720CF1A00BA3F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36144E42720D3A500BA3F14 /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		B36144E52720D3A500BA3F14 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		B36144E62720D3A600BA3F14 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		B36144E72720D3A600BA3F14 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		B36144E82720D3A700BA3F14 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		B36144EE2720D3E500BA3F14 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		B36144F12720D5F000BA3F14 /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
+		B36144F32720D6FD00BA3F14 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		B36144F72720DD3900BA3F14 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36144B02720CF1500BA3F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36144C12720CF1A00BA3F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36144CC2720CF1A00BA3F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36144AA2720CF1500BA3F14 = {
+			isa = PBXGroup;
+			children = (
+				B36144B52720CF1500BA3F14 /* SnapKids */,
+				B36144C72720CF1A00BA3F14 /* SnapKidsTests */,
+				B36144D22720CF1A00BA3F14 /* SnapKidsUITests */,
+				B36144B42720CF1500BA3F14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36144B42720CF1500BA3F14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36144B32720CF1500BA3F14 /* SnapKids.app */,
+				B36144C42720CF1A00BA3F14 /* SnapKidsTests.xctest */,
+				B36144CF2720CF1A00BA3F14 /* SnapKidsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36144B52720CF1500BA3F14 /* SnapKids */ = {
+			isa = PBXGroup;
+			children = (
+				B36144F02720D5BA00BA3F14 /* ViewModel */,
+				B36144E32720D38100BA3F14 /* Model */,
+				B36144E22720D36E00BA3F14 /* View */,
+				B36144E12720D35B00BA3F14 /* Video */,
+				B36144B62720CF1500BA3F14 /* SnapKidsApp.swift */,
+				B36144B82720CF1500BA3F14 /* ContentView.swift */,
+				B36144BA2720CF1A00BA3F14 /* Assets.xcassets */,
+				B36144BF2720CF1A00BA3F14 /* Info.plist */,
+				B36144BC2720CF1A00BA3F14 /* Preview Content */,
+			);
+			path = SnapKids;
+			sourceTree = "<group>";
+		};
+		B36144BC2720CF1A00BA3F14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B36144BD2720CF1A00BA3F14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B36144C72720CF1A00BA3F14 /* SnapKidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36144C82720CF1A00BA3F14 /* SnapKidsTests.swift */,
+				B36144CA2720CF1A00BA3F14 /* Info.plist */,
+			);
+			path = SnapKidsTests;
+			sourceTree = "<group>";
+		};
+		B36144D22720CF1A00BA3F14 /* SnapKidsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B36144D32720CF1A00BA3F14 /* SnapKidsUITests.swift */,
+				B36144D52720CF1A00BA3F14 /* Info.plist */,
+			);
+			path = SnapKidsUITests;
+			sourceTree = "<group>";
+		};
+		B36144E12720D35B00BA3F14 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				B36144E62720D3A600BA3F14 /* video1.mp4 */,
+				B36144E52720D3A500BA3F14 /* video2.mp4 */,
+				B36144E72720D3A600BA3F14 /* video3.mp4 */,
+				B36144E82720D3A700BA3F14 /* video4.mp4 */,
+				B36144E42720D3A500BA3F14 /* video5.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		B36144E22720D36E00BA3F14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B36144F32720D6FD00BA3F14 /* VideoPlayerView.swift */,
+				B36144F72720DD3900BA3F14 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B36144E32720D38100BA3F14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B36144EE2720D3E500BA3F14 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B36144F02720D5BA00BA3F14 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B36144F12720D5F000BA3F14 /* VideoPlayerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36144B22720CF1500BA3F14 /* SnapKids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36144D82720CF1A00BA3F14 /* Build configuration list for PBXNativeTarget "SnapKids" */;
+			buildPhases = (
+				B36144AF2720CF1500BA3F14 /* Sources */,
+				B36144B02720CF1500BA3F14 /* Frameworks */,
+				B36144B12720CF1500BA3F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKids;
+			productName = SnapKids;
+			productReference = B36144B32720CF1500BA3F14 /* SnapKids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B36144C32720CF1A00BA3F14 /* SnapKidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36144DB2720CF1A00BA3F14 /* Build configuration list for PBXNativeTarget "SnapKidsTests" */;
+			buildPhases = (
+				B36144C02720CF1A00BA3F14 /* Sources */,
+				B36144C12720CF1A00BA3F14 /* Frameworks */,
+				B36144C22720CF1A00BA3F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36144C62720CF1A00BA3F14 /* PBXTargetDependency */,
+			);
+			name = SnapKidsTests;
+			productName = SnapKidsTests;
+			productReference = B36144C42720CF1A00BA3F14 /* SnapKidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B36144CE2720CF1A00BA3F14 /* SnapKidsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36144DE2720CF1A00BA3F14 /* Build configuration list for PBXNativeTarget "SnapKidsUITests" */;
+			buildPhases = (
+				B36144CB2720CF1A00BA3F14 /* Sources */,
+				B36144CC2720CF1A00BA3F14 /* Frameworks */,
+				B36144CD2720CF1A00BA3F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36144D12720CF1A00BA3F14 /* PBXTargetDependency */,
+			);
+			name = SnapKidsUITests;
+			productName = SnapKidsUITests;
+			productReference = B36144CF2720CF1A00BA3F14 /* SnapKidsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36144AB2720CF1500BA3F14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B36144B22720CF1500BA3F14 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B36144C32720CF1A00BA3F14 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B36144B22720CF1500BA3F14;
+					};
+					B36144CE2720CF1A00BA3F14 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B36144B22720CF1500BA3F14;
+					};
+				};
+			};
+			buildConfigurationList = B36144AE2720CF1500BA3F14 /* Build configuration list for PBXProject "SnapKids" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36144AA2720CF1500BA3F14;
+			productRefGroup = B36144B42720CF1500BA3F14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36144B22720CF1500BA3F14 /* SnapKids */,
+				B36144C32720CF1A00BA3F14 /* SnapKidsTests */,
+				B36144CE2720CF1A00BA3F14 /* SnapKidsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36144B12720CF1500BA3F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36144E92720D3BB00BA3F14 /* video1.mp4 in Resources */,
+				B36144EA2720D3BB00BA3F14 /* video2.mp4 in Resources */,
+				B36144EB2720D3BB00BA3F14 /* video3.mp4 in Resources */,
+				B36144EC2720D3BB00BA3F14 /* video4.mp4 in Resources */,
+				B36144ED2720D3BB00BA3F14 /* video5.mp4 in Resources */,
+				B36144BE2720CF1A00BA3F14 /* Preview Assets.xcassets in Resources */,
+				B36144BB2720CF1A00BA3F14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36144C22720CF1A00BA3F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36144CD2720CF1A00BA3F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36144AF2720CF1500BA3F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36144B92720CF1500BA3F14 /* ContentView.swift in Sources */,
+				B36144F22720D5F000BA3F14 /* VideoPlayerViewModel.swift in Sources */,
+				B36144EF2720D3E500BA3F14 /* Video.swift in Sources */,
+				B36144B72720CF1500BA3F14 /* SnapKidsApp.swift in Sources */,
+				B36144F82720DD3900BA3F14 /* Home.swift in Sources */,
+				B36144F42720D6FD00BA3F14 /* VideoPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36144C02720CF1A00BA3F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36144C92720CF1A00BA3F14 /* SnapKidsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36144CB2720CF1A00BA3F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36144D42720CF1A00BA3F14 /* SnapKidsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36144C62720CF1A00BA3F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36144B22720CF1500BA3F14 /* SnapKids */;
+			targetProxy = B36144C52720CF1A00BA3F14 /* PBXContainerItemProxy */;
+		};
+		B36144D12720CF1A00BA3F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36144B22720CF1500BA3F14 /* SnapKids */;
+			targetProxy = B36144D02720CF1A00BA3F14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B36144D62720CF1A00BA3F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B36144D72720CF1A00BA3F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36144D92720CF1A00BA3F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapKids/Preview Content\"";
+				DEVELOPMENT_TEAM = 27HH5ZR3UE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SnapKids/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andios.SnapKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B36144DA2720CF1A00BA3F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapKids/Preview Content\"";
+				DEVELOPMENT_TEAM = 27HH5ZR3UE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SnapKids/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andios.SnapKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B36144DC2720CF1A00BA3F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27HH5ZR3UE;
+				INFOPLIST_FILE = SnapKidsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andios.SnapKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapKids.app/SnapKids";
+			};
+			name = Debug;
+		};
+		B36144DD2720CF1A00BA3F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27HH5ZR3UE;
+				INFOPLIST_FILE = SnapKidsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andios.SnapKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapKids.app/SnapKids";
+			};
+			name = Release;
+		};
+		B36144DF2720CF1A00BA3F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27HH5ZR3UE;
+				INFOPLIST_FILE = SnapKidsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andios.SnapKidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapKids;
+			};
+			name = Debug;
+		};
+		B36144E02720CF1A00BA3F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27HH5ZR3UE;
+				INFOPLIST_FILE = SnapKidsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.andios.SnapKidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapKids;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36144AE2720CF1500BA3F14 /* Build configuration list for PBXProject "SnapKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36144D62720CF1A00BA3F14 /* Debug */,
+				B36144D72720CF1A00BA3F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36144D82720CF1A00BA3F14 /* Build configuration list for PBXNativeTarget "SnapKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36144D92720CF1A00BA3F14 /* Debug */,
+				B36144DA2720CF1A00BA3F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36144DB2720CF1A00BA3F14 /* Build configuration list for PBXNativeTarget "SnapKidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36144DC2720CF1A00BA3F14 /* Debug */,
+				B36144DD2720CF1A00BA3F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36144DE2720CF1A00BA3F14 /* Build configuration list for PBXNativeTarget "SnapKidsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36144DF2720CF1A00BA3F14 /* Debug */,
+				B36144E02720CF1A00BA3F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36144AB2720CF1500BA3F14 /* Project object */;
+}
